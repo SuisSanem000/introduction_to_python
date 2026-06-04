@@ -5,4 +5,7 @@ def cat(food, state='still hungry', action='meow', breed='Siamese'):
     print(f"-- It's {state}!")
 
 
-cat(???)
+# -- This cat wouldn't growl if you gave it soup
+# -- Lovely fur, the Sphinx
+# -- It's still hungry!
+cat(action='growl', food='soup', breed='Sphinx')

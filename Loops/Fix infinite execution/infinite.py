@@ -1,8 +1,9 @@
 def should_not_be_infinite():  # Function definition. Do not mind it for now.
-    i = 5
+    i = 0
 
-    while i < 15:
+    while i < 5:
         print("Hello, World!")
+        i+=1
         # TODO
 
 
