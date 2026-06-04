@@ -1,10 +1,12 @@
 ages_dict = {
     "Alice": 21,
-    "Bob": 39,
+    "Bob1": 39,
     "George": 30,
     "Susanne": 27,
-    "Bob": 19,
-    ["Ashley", "Alex", "Nancy"]: 35
+    "Bob2": 19,
+    "Ashley": 35,
+    "Alex": 35,
+    "Nancy": 35
 }
 
 
