@@ -3,36 +3,36 @@ files:
   - name: open_file.py
     visible: true
     placeholders:
-      - offset: 152
-        length: 64
+      - offset: 151
+        length: 0
         placeholder_text: "# Open the file input1.txt in read mode using the with statement"
         initial_state:
           length: 64
           offset: 152
         initialized_from_dependency: false
         encrypted_possible_answer: ClONeCJ89xM+YLBHqI0uT1f8HqjRdiTgfJ5kbVb6uEkePVfxQgPcZ4zVQDjbR9AC
-        selected: false
-        status: Unchecked
-      - offset: 269
-        length: 3
+        selected: true
+        status: Failed
+      - offset: 294
+        length: 12
         placeholder_text: ???
         initial_state:
           length: 3
           offset: 269
         initialized_from_dependency: false
         encrypted_possible_answer: CjyIEIdTn2xi5YDrREVhYw==
-        selected: false
-        status: Unchecked
-      - offset: 430
-        length: 24
+        selected: true
+        status: Failed
+      - offset: 396
+        length: 15
         placeholder_text: "# Close the output file!"
         initial_state:
           length: 24
           offset: 430
         initialized_from_dependency: false
         encrypted_possible_answer: GLfjqX8FAMv5bbIEND3/XA==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: input.txt
     visible: true
@@ -46,6 +46,13 @@ files:
   - name: tests/test_task.py
     visible: false
     learner_created: false
+  - name: Hello World
+    visible: true
+    learner_created: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Open+file
-status: Unchecked
+status: Failed
+feedback:
+  message: "False is not true : The output file name should be derived from the outfile_name\
+    \ variable."
+  time: "Mon, 08 Jun 2026 10:19:32 UTC"
 record: -1
